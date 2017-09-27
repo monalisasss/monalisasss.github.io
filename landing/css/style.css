@@ -64,12 +64,21 @@ input[type="email"]{
 }
 
 input[type="submit"]{
-    background-color: #29bc7d;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
-    color: #FFF;
     cursor: pointer;
+    border: 2px solid #29bc7d;
+    border-radius: 5px;
+    background-color: #29bc7d;
+    color: #FFF;
+}
+
+input[type="submit"]:hover{
+    color: #29bc7d;
+    border: 2px solid #29bc7d;
+    background-color: #FFF;
+    transition: background-color 0.3s ease-out;
 }
 
 p{
@@ -120,6 +129,7 @@ p{
     max-width: 300px;
     text-align: center;
 }
+
 .itens-item img{
     /*border: 3px solid #FFF;*/
     border-radius: 50px;
